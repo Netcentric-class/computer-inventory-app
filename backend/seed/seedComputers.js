@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Computer = require('../models/Computer');
+const Computer = require('../models/computer');
 const connectDB = require('../config/db');
 
 const brands = ['Dell', 'HP', 'Lenovo', 'Apple', 'Acer', 'Asus', 'MSI', 'Samsung'];
