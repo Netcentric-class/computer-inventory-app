@@ -1,7 +1,7 @@
 // Why do we require each one of the followin? What are they for?
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../models/user');
 
 function createToken(user) {
   return jwt.sign(

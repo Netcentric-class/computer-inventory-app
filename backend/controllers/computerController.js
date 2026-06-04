@@ -1,4 +1,4 @@
-const Computer = require('../models/Computer');
+const Computer = require('../models/computer');
 
 async function getComputers(req, res) {
   try {
